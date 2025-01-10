@@ -18,7 +18,7 @@ function createHotelSection(hotels) {
 
     hotelDiv.innerHTML = `
       <h3>${hotel.name}</h3>
-      <button class="show-menu" data-id="${hotel._id}" onclick="navigateToMenu('${hotel._id}')">Show Menu</button>
+      <button style =" boarder: 2px white solid" class="show-menu" data-id="${hotel._id}" onclick="navigateToMenu('${hotel._id}')">Show Menu</button>
     `;
     hotelsContainer.appendChild(hotelDiv);
   });
