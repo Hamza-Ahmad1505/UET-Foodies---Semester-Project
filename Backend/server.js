@@ -27,7 +27,7 @@ app.use((req, res) => {
 });
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://hamzaahmad:ZZTZe9kvahWJYqeg@cluster0.aawok.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('mongodb+srv://hamzaahmad:ZZTZe9kvahWJYqeg@cluster0.aawok.mongodb.net/uet-foodies?retryWrites=true&w=majority&appName=Cluster0', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
